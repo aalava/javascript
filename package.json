@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Este directorio contendrá las tareas acerca de JavaScript de la materia Aplicaciones Webs I",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalava/javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalava/javascript/issues"
+  },
+  "homepage": "https://github.com/aalava/javascript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
