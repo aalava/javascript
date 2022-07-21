@@ -17,17 +17,3 @@ fetchData(`${API}/character`)
 .then(data3 =>{
     console.log(data3.dimension);
 })
-
-
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'b2fa419450mshb197e492060ab42p18f376jsnf3f1ad3d3351',
-		'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-	}
-};
-
-fetch('https://spotify23.p.rapidapi.com/tracks/?ids=4WNcduiCmDNfmTEz7JvmLv', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
