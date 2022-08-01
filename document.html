@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows y Document</title>
+    <script type="text/javascript">
+        function mostrar_fecha(){
+            var cl = document.getElementById('fecha');
+            cl.innerHTML = new Date();
+        }
+    </script>
+    <script type="text/javascript">
+        function windowExecute(){
+            var cl2 = document.getElementById('windowData');
+            var alturaDelViewport = window.innerHeight;
+            cl2.innerHTML = alturaDelViewport;
+        }
+    </script>
+</head>
+<body onload="mostrar_fecha(), windowExecute()">
+    
+</body>
+<div id="fecha"></div>
+<div id="windowData"></div>
+</html>
